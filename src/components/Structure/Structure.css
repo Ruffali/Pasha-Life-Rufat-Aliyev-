@@ -1,0 +1,35 @@
+.structure_parts_purple {
+  background: #f2f0fe;
+  color     : #826cfc;
+}
+
+.structure_parts_blue {
+  background: #c0e8ff;
+  color     : #0085ff;
+}
+
+.structure_parts_green {
+  background: #d7ffe2;
+  color     : #54b806;
+}
+
+.structure_parts_yellow {
+  background: #fff9c7;
+  color     : #d5a707;
+}
+
+.subStucture_parts_puprle {
+  color: #826cfc;
+}
+
+.subStucture_parts_blue {
+  color: #0085ff;
+}
+
+.subStucture_parts_green {
+  color: #54b806;
+}
+
+.subStucture_parts_yellow {
+  color: #d5a707;
+}

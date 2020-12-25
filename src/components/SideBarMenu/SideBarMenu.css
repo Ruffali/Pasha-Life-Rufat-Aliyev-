@@ -1,0 +1,7 @@
+.active>div:last-child {
+  color: #4f9bff !important;
+}
+
+.active>div:first-child svg path {
+  stroke: #4f9bff !important;
+}

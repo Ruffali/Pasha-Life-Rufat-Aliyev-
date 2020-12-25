@@ -1,0 +1,36 @@
+.not_found_part {
+  position: relative;
+  width: 83.4vw;
+  height: 100vh;
+  background: #96c1f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: RobotoBold;
+  color: #ffffff;
+  font-size: 200px;
+  padding-bottom: 114px;
+  padding-top: 61px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  .home {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 128px;
+    height: 45px;
+    background: linear-gradient(180deg, #00c6ff -144.44%, #0072ff 233.33%);
+    border-radius: 6px;
+    font-size: 19px;
+    line-height: 22px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      background: linear-gradient(180deg, #1088aa -144.44%, #0072ff 233.33%);
+    }
+  }
+}

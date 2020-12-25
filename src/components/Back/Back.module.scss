@@ -1,0 +1,22 @@
+.back {
+  margin: 35px 0 31px 32px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #a5a8b3;
+  display: flex;
+  align-items: center;
+  .img_div {
+    margin-right: 16.63px;
+    width: 23.37px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #96c1f9;
+    border-radius: 4px;
+    img {
+      object-fit: contain;
+      display: inline-block;
+    }
+  }
+}

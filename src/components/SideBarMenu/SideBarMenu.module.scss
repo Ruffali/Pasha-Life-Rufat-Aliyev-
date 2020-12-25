@@ -1,0 +1,45 @@
+.side_bar_menu {
+  margin-top: 41.5px;
+  .menu {
+    display: flex;
+    align-items: center;
+    padding: 12.5px 26.5px 12.5px 0;
+    cursor: pointer;
+    .icon {
+      margin-right: 16.5px;
+      margin-bottom: -5px;
+      svg {
+        path {
+          stroke: #c2cfe0;
+          transition: all linear 0.1s;
+        }
+      }
+    }
+    .title {
+      font-size: 13px;
+      line-height: 15px;
+      letter-spacing: 0.01em;
+      color: #334d6e;
+      transition: all linear 0.1s;
+    }
+    &:nth-child(6) {
+      padding-bottom: 26px;
+    }
+    &:last-child {
+      border-top: 1px solid #ebeff2;
+      padding-top: 26px;
+    }
+    &:hover {
+      .icon {
+        svg {
+          path {
+            stroke: #4f9bff;
+          }
+        }
+      }
+      .title {
+        color: #4f9bff;
+      }
+    }
+  }
+}

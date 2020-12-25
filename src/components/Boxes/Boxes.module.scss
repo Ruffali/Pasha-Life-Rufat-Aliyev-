@@ -1,0 +1,20 @@
+.boxes {
+  margin: 0 auto;
+  width: 78vw;
+  margin: 0 1vw;
+  position: relative;
+  .bothSide {
+    display: flex;
+    justify-content: space-between;
+    .singleSide {
+      position: relative;
+      margin: 0 auto;
+      &:first-child{
+        margin-right: 150px;
+      }
+      &:last-child{
+        margin-left: 150px;
+      }
+    }
+  }
+}

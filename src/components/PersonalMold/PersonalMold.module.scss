@@ -1,0 +1,20 @@
+.personal_mold {
+  width: 83.4vw;
+  height: 100vh;
+  padding-bottom: 114px;
+  padding-top: 61px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  .both {
+    margin: 0 32px;
+    display: flex;
+    align-items: flex-start;
+    & > div:first-child {
+      margin: inherit;
+      margin-right: 21px;
+      margin-left: 0;
+    }
+    
+  }
+}
